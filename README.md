@@ -4,7 +4,7 @@ A test repository to see how slack webapp api works
 
 Specifically this is a node script that messages a specific channel
 
-Steps for setting up Slack OAuth Token
+## Steps for setting up Slack OAuth Token
 
 1. Create Slack App with this [link](https://api.slack.com/apps) (navigate and click on green button that says Create Slack App)
 
