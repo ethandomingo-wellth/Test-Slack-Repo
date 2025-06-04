@@ -11,7 +11,7 @@ const currentTime = new Date().toTimeString();
     // Use the `chat.postMessage` method to send a message from this app
     await web.chat.postMessage({
       channel: '#test-slack-bot-channel', // Replace with your channel ID or name
-      text: `The current time is ${currentTime} and <@U08SV2MRSLX>`,
+      text: `${process.argv.slice(2).join(' ')}`,
     });
     console.log('Message posted!');
   } catch (error) {
